@@ -5,6 +5,7 @@
 body {
   background-color: #f7f7f7;
   padding: 15px;
+  font-family: Inter, sans-serif;
 }
 
 .page-wrapper {
@@ -16,5 +17,25 @@ body {
 }
 
 .header {
+  color: #fff;
   padding: 40px 42px 145px;
+  background: linear-gradient(
+      0deg,
+      rgba(58, 58, 58, 0.6),
+      rgba(58, 58, 58, 0.6)
+    ),
+    url("../img/header-bg.png") no-repeat center / cover;
+  border-radius: 0px 0px 90px 90px;
+}
+
+.hello {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.hello-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
